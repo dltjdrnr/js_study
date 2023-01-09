@@ -1,0 +1,23 @@
+자바스크립트 자료형  
+Boolean 타입
+Null 타입
+Undefined 타입
+Number 타입
+BigInt 타입
+String 타입
+Symbol 타입
+자바스크립트 변수 선언방법(4종류)
+1. var 
+2. let - 
+3. const(block scope) - 블록 범위의 상수를 선언
+자바스크립트 함수 선언방법(3종류)
+json이란?
+자바스크립트 스코프
+var let const 스코프 차이
+1급객체(자바 , 자바 스크립트 비교)
+-콜백
+window 객체/ dom /bom
+
+
+(부동소수점이란) 자스엣 1.1 + 1.3 이 2.4가 아닌 이유
+얕은복사,깊은 복사                                                                        

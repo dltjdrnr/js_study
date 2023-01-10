@@ -2,15 +2,20 @@
 const solution =(numer1, denom1, numer2, denom2)=>{
     let numera = (numer1*denom2) + (denom1*numer2);
     let den =  denom1*denom2;
-    let min = 1; 
+    let min = 2; 
     let answer =[];
-    for(let index = 2; index<=numera; index++){
-        if(numera%index ===0 && den%index===0){
-            min = index;
-            return answer = [numera/min , den/min];
-        }else 
-        return answer = [numera, den];
-    }
+    // while(numera%min ==0 && den%min==0){
+
+    // }
 }
 console.log(solution(33,21,55,30));
+// for(let index = 2; index<=numera; index++){
+    //     if(numera%index ===0 && den%index===0){
+    //         min = index;
+    //         return answer = [numera/min , den/min];
+    //     }else 
+    //     return answer = [numera, den];
+    // }
 </script>
+
+

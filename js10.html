@@ -1,0 +1,29 @@
+<script>
+    // break , continue
+    
+    const breakFunc = ()=>{
+        let count = 0;
+        while(count < 100){
+            console.log(` ${count} break 테스트`);
+            if(count > 10){
+                break;
+            }
+            count = count + 1;
+        }
+    }
+    breakFunc();
+    console.log(`break 빠져나옴`);
+    //return
+    const returnFunc = ()=>{
+        let count = 0;
+        while(count < 100){
+            console.log(`${count} return 테스트`);
+            if(count > 10){
+                return;
+            }
+            count = count + 1;
+        }
+    }
+    returnFunc();
+    console.log(`return 빠져나옴`);
+</script>

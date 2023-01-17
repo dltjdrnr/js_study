@@ -1,0 +1,12 @@
+<script>
+    const family={
+        aunt : ["c","s"],
+    }
+    //객체를 문자로 만드는 것 JSON
+    //통신 데이터는 모두 문자열이다.
+    const jsonFamily = JSON.stringify(family);
+    console.log(jsonFamily);
+    const Family1 = JSON.parse(jsonFamily);
+    console.log(Family1);
+
+</script>
